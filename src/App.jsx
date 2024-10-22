@@ -13,11 +13,11 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Hero  /> {/* Pass the click handler */}
+      <Hero  /> 
       <About />
       <Service />
       <Projects />
-      <Contact  /> {/* Attach the reference to the Contact component */}
+      <Contact  />
       <Footer />
     </div>
   );

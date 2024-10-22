@@ -182,7 +182,7 @@ const Contact = () => {
             </div>
             <div className='mb-4'>
               <FaMapMarkedAlt className='inline-block text-green-400 mr-2' />
-              <span>Jodhpur, Rajasthan, India</span>
+              <span> Jodhpur, Rajasthan, India</span>
             </div>
           </div>
           <div className='flex-1 w-full'>

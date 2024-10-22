@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="bg-black text-white px-4 sm:px-8 md:px-16 lg:px-24">
       <div className="container py-2 flex flex-wrap justify-between items-center">
         {/* Brand Name */}
-        <div className="text-2xl font-bold md:inline hidden">Sameer</div>
+        <div className="text-2xl font-bold md:inline hidden"> Sameer </div>
         
         {/* Mobile Menu Toggle Button */}
         <div className="block md:hidden">
