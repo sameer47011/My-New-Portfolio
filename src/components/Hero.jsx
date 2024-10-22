@@ -99,12 +99,9 @@ const Hero = () => {
     <div className="bg-black text-white text-center py-16 px-4 md:px-8">
       <img
         src={HeroImage}
-        alt=""
-        className="mx-auto mb-8 w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-full object-cover transform 
-        transition-transform duration-300 hover:scale-110"
-        style={{
-          objectPosition: 'left center',
-        }}
+        alt="Hero"
+        className="mx-auto mb-8 w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-full object-cover transform transition-transform duration-300 hover:scale-110"
+        style={{ objectPosition: 'left center' }}
       />
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
         I'm{' '}
@@ -119,17 +116,15 @@ const Hero = () => {
       <div className="mt-6 sm:mt-8 space-x-2 sm:space-x-4 flex justify-center flex-wrap">
         <a
           href="#contact"
-          className="bg-gradient-to-r from-green-400 to-blue-500 text-white
-          transform transition-transform duration-300 hover:scale-105 px-4 py-2 sm:px-6 sm:py-3 rounded-full"
+          className="bg-gradient-to-r from-green-400 to-blue-500 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 sm:px-6 sm:py-3 rounded-full"
         >
           Contact Me
         </a>
         <button
           onClick={() => window.open('https://drive.google.com/file/d/1AMhsePzj1uYZz-y8pXevaNKnOL89u8g1/view?usp=sharing')}
-          className="bg-gradient-to-r from-pink-500 to-yellow-500 text-white
-          transform transition-transform duration-300 hover:scale-105 px-4 py-2 sm:px-6 sm:py-3 rounded-full"
+          className="bg-gradient-to-r from-pink-500 to-yellow-500 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 sm:px-6 sm:py-3 rounded-full"
         >
-            View Resume
+          View Resume
         </button>
       </div>
     </div>
@@ -137,6 +132,7 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
 
 

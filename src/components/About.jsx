@@ -22,7 +22,7 @@
 //               three personal projects to sharpen my skills.
 //             </p>
 //           </div>
-          
+
 //         </div>
 //         <div className="space-y-4">
 //           {/* Skills section */}
@@ -105,14 +105,14 @@ const About = () => {
         <div className="space-y-4">
           {/* Skills section */}
           {[
-            { name: "HTML & CSS", width: "11/12" },
-            { name: "React JS", width: "11/12" },
-            { name: "Node JS", width: "7/12" },
-            { name: "Express JS", width: "8/12" },
-            { name: "MongoDB", width: "7/12" },
-            { name: "JavaScript", width: "10/12" },
-            { name: "React Native", width: "8/12" },
-            { name: "Tailwind CSS", width: "9/12" },
+            { name: "HTML & CSS", width: 11 },
+            { name: "React JS", width: 11 },
+            { name: "Node JS", width: 7 },
+            { name: "Express JS", width: 8 },
+            { name: "MongoDB", width: 7 },
+            { name: "JavaScript", width: 10 },
+            { name: "React Native", width: 8 },
+            { name: "Tailwind CSS", width: 9 },
           ].map((skill) => (
             <div className="flex items-center" key={skill.name}>
               <label htmlFor={skill.name.toLowerCase()} className="w-2/12 text-sm sm:text-base md:text-lg">
@@ -120,7 +120,8 @@ const About = () => {
               </label>
               <div className="grow bg-gray-800 rounded-full h-2.5">
                 <div
-                  className={`bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-${skill.width}`}
+                  className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105"
+                  style={{ width: `${(skill.width / 12) * 100}%` }} // Set dynamic width
                 ></div>
               </div>
             </div>
@@ -155,3 +156,4 @@ const About = () => {
 };
 
 export default About;
+
