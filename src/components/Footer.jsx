@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="flex-1 mb-4 md:mb-0">
             <h3 className="text-2xl font-bold mb-2">Sameer</h3>
             <p className="text-gray-400">
-              Full-Stack Developer with a passion for frontend development and a solid understanding of backend technologies. I love building user-friendly interfaces and ensuring smooth functionality behind the scenes.
+                Full-Stack Developer with a passion for frontend development and a solid understanding of backend technologies. I love building user-friendly interfaces and ensuring smooth functionality behind the scenes.
             </p>
           </div>
           <div className="flex-1 w-full">
