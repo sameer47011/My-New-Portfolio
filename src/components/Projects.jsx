@@ -55,7 +55,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Live Demo
+                  Live Demo Project 
                 </a>
                 <a
                   href={project.github}
